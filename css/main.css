@@ -13,6 +13,11 @@ body{
 h1{
   font-family: "Century Schoolbook L", sans-serif;
 }
+div{
+  padding: 10px 15px 20px;
+  border: solid black 1px;
+  border-radius: 1em;
+}
 
 #small{
   /*visibility: visible;*/
@@ -32,6 +37,12 @@ h1{
   float: left;
 }
 
+#ending{
+  text-align: center;
+  width: 100%;
+  clear: both;
+}
+
 /*----------------------*/
 /*--CSS FOR TABLET USE--*/
 /*______________________*/
@@ -45,13 +56,13 @@ h1{
   }
   #small{
     /*visibility: hidden;*/
-    width: 66%;
+    width: 66.66%;
     float: left;
   }
 
   #medium{
     /*visibility: visible;*/
-    width: 33%;
+    width: 33.33%;
     float: right;
   }
 
@@ -76,19 +87,19 @@ h1{
   }
   #small{
     /*visibility: hidden;*/
-    width: 33%;
+    width: 33.33%;
     float: left;
   }
 
   #medium{
     /*visibility: hidden;*/
-    width: 33%;
+    width: 33.33%;
     float: left;
   }
 
   #large{
     /*visibility: visible;*/
-    width: 33%;
+    width: 33.33%;
     float: left;
   }
 }
