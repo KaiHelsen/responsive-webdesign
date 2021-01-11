@@ -1,0 +1,94 @@
+/*--------------------------*/
+/*--CSS FOR SMARTPHONE USE--*/
+/*__________________________*/
+
+*{
+  box-sizing: border-box;
+}
+body{
+  background-color: red;
+  font-family: "Roboto Light", sans-serif;
+}
+
+h1{
+  font-family: "Century Schoolbook L", sans-serif;
+}
+
+#small{
+  /*visibility: visible;*/
+  width: 100%;
+  float: left;
+}
+
+#medium{
+  /*visibility: hidden;*/
+  width: 100%;
+  float: left;
+}
+
+#large{
+  /*visibility: hidden;*/
+  width: 100%;
+  float: left;
+}
+
+/*----------------------*/
+/*--CSS FOR TABLET USE--*/
+/*______________________*/
+@media only screen and (min-width: 600px){
+  body {
+    background-color: green;
+    font-family: "URW Gothic", sans-serif;
+  }
+  h1{
+    font-family: "Roboto Light", sans-serif;
+  }
+  #small{
+    /*visibility: hidden;*/
+    width: 66%;
+    float: left;
+  }
+
+  #medium{
+    /*visibility: visible;*/
+    width: 33%;
+    float: right;
+  }
+
+  #large{
+    /*visibility: hidden;*/
+    width: 100%;
+    float: left;
+  }
+}
+
+/*------------------------------*/
+/*--CSS FOR DESKTOP/LAPTOP USE--*/
+/*______________________________*/
+@media only screen and (min-width: 768px) {
+  body{
+    background-color: blue;
+    font-family: "Nimbus Roman", sans-serif;
+  }
+
+  h1{
+    font-family: "Liberation Sans Narrow", serif;
+  }
+  #small{
+    /*visibility: hidden;*/
+    width: 33%;
+    float: left;
+  }
+
+  #medium{
+    /*visibility: hidden;*/
+    width: 33%;
+    float: left;
+  }
+
+  #large{
+    /*visibility: visible;*/
+    width: 33%;
+    float: left;
+  }
+}
